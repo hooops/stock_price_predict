@@ -36,3 +36,10 @@ pip install python-box
 - The first half of the given data is used for training and the second half (valid_len) is used for validation.
 - In general, after validating the model, learning the validation data be able to predict the future more accurately.
 - This code does not implement the above technique.
+
+#### Figure Image
+![Loss plot](https://github.com/spider-man-tm/stock_price_predict/blob/master/figure/loss_plot.png)
+
+![Validation predict](https://github.com/spider-man-tm/stock_price_predict/blob/master/figure/validation_plot.png)
+
+![Stock price predict](https://github.com/spider-man-tm/stock_price_predict/blob/master/figure/prediction_plot.png)

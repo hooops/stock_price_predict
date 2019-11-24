@@ -1,0 +1,5 @@
+data/*
+model/*
+pred/*
+__pycache__
+!.gitkeep

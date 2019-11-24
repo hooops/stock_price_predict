@@ -1,0 +1,20 @@
+path:
+  data_path : './data/csv'
+  model_path : './model/model.pth'
+  fig_path : './figure'
+  pred_path : './pred/pred.pkl'
+
+length:
+  valid_len : 30
+  seq_length : 10
+  fut_pred : 30
+
+parameter:
+  lr : 0.001
+  epochs : 100
+
+device : 'cuda'
+
+seed : 42
+
+csv_columns : ['Datetime', 'Opening_price', 'High_price', 'Low_price', 'Closing_price', 'Volume', 'Closing_price_adjustment_value']
